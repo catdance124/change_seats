@@ -1,0 +1,12 @@
+.drag-and-drop {
+  cursor: move;
+  position: absolute;
+  z-index: 1000;
+  width :40px;             /* 横幅を50pxにする */
+  height:40px;             /* 縦幅を50pxにする */
+  background-color:red;    /* 背景色を赤色にする */
+}
+
+.drag {
+  z-index: 1001;
+}
