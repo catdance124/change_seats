@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <title>Draggable Example</title>
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
+
 <body>
+  <p>hfesihfds</p>
+  <div class="field">
+    <script>
+      for (let i = 1; i < 10; i++) {
+        document.write('<div class="box" style="left:50px; top:' + String(i * 75) + 'px">name</div>');
+        document.write('<div class="box" style="left:400px; top:' + String(i * 75) + 'px">name</div>');
+      }
+    </script>
+  </div>
+  <p>hfesihfds</p>
 
-  <script>
-  for (let i=1; i<20; i++){
-    document.write('<div class="drag-and-drop" style="left:50px; top:'+String(i*50)+'px"></div>');
-    }
-  </script>
-
-  <script src="./js/draggable.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
