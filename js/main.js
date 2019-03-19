@@ -1,5 +1,5 @@
 {
-  const members = ['a','b','c','d','e','f','g','h','i','j','k'];
+  const members = ['a','b','c','d','e','f','a','b','c','d','e','f','g','h','i','j','k'];
   const middle_index = Math.ceil(members.length/2);
   members.forEach((member, index) => {
     if (index < middle_index){

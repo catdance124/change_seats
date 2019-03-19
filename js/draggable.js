@@ -1,6 +1,6 @@
 $(function () {
 	// ドラッグ
-	$('.box').draggable({
+	$('.draggable').draggable({
 		containment: ".field", //ドラッグの範囲を制限
 		snap: ".snaptarget", /* ターゲットにスナップする */
 		snapMode: "inner",   /* 内側にスナップする */
