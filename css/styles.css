@@ -26,8 +26,9 @@
 }
 
 .field {
-  height: 0px;
+  height: 500px;
   width: 500px;
   position: relative;
   background-color: antiquewhite;
+  margin: 20px 0px;
 }
